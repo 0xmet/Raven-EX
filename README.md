@@ -114,8 +114,27 @@ pip install -r requirements.txt
 <br>
 
 ---
+### Linux Deployment
+Raven-EX is fully optimized for Linux environments. The installation process automatically handles cross-platform dependencies.
 
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/0xmet/Raven-EX.git](https://github.com/0xmet/Raven-EX.git)
+   cd Raven-EX
+  
 
+2. **Setup Virtual Environment:**
+ 
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+  
+
+3. **Install Dependencies:**
+   ```bash
+     pip install -r requirements.txt 
+     ```
+---
 ## How to Use R.A.V.E.N.
 
 R.A.V.E.N. is designed to be a "Zero-Config" forensic engine. You don't need to manage databases; just provide the logs, and the engine will do the rest.
